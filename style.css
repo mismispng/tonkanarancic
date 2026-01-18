@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	color: rgba(30,7,35,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	line-height: 16px;
+	width: 600px;
+	padding: 10px;
+}
+.meow 
+	{background-color:  rgba(255, 255, 255, 0.5);	
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+span {color: rgb(255, 0, 255);}
+.background {
+	background-image: url("pictures/01.png");
+}
+.ndbackground{
+	background-image: url("pictures/01.png");
+	opacity: 0.8;
+	color: aliceblue;
+}
+a:link{
+	color: black;
+	opacity: 0.8;
+	background-color: ghostwhite;
+	padding: 5px;
+	line-height: 25px;
+	border:2px solid #000000;
+	border-radius: 5px;
+}
+a:hover{
+	background-color: black;
+	
+}
+a:active{
+	background-color: rgba(77,19,102,1.00);
+}
+img{
+	height: 100px;
+}
+h1, h2 {
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: ghostwhite;
+}
